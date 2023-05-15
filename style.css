@@ -1,0 +1,56 @@
+body {
+    margin: 25px 50px 25px 50px;
+    background-color: #F5F3EF;
+    font-family: roboto-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#top-section {
+    margin: 50px 0 50px 0;
+    display: grid;
+    grid-template-areas: "left-box cooking-image"
+    "left-box cooking-image";
+    
+}
+
+#left-box {
+    grid-area: left-box;
+    margin-right: 50px;
+}
+
+#tagline {
+    padding-bottom: 30px;
+}
+
+#left-box-p {
+    font-size: 24px;;
+}
+
+#cooking-image {
+    grid-area: cooking-image;
+   height: 75%;
+    
+}
