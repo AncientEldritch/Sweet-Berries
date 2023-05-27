@@ -1,7 +1,7 @@
 body {
     margin: 25px 50px 25px 50px;
     background-color: #F5F3EF;
-    font-family: roboto-serif;
+    font-family: "Roboto";
 }
 
 header {
@@ -12,7 +12,18 @@ header {
 nav {
     display: flex;
     gap: 20px;
+    font-family: "roboto";
+    font-weight:500;
 }
+
+#get-started {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+}
+
 
 a {
     text-decoration: none;
@@ -21,10 +32,19 @@ a {
 
 h1 {
     font-size: 64px;
+    font-weight: 500;
+    font-family: "roboto serif";
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "roboto serif";
+}
+
+h3 {
+    font-size: 24px;
+    font-family: "roboto serif";
     font-weight: bold;
 }
 
@@ -44,13 +64,95 @@ h2 {
 #tagline {
     padding-bottom: 30px;
 }
+    
+
+
 
 #left-box-p {
-    font-size: 24px;;
+    font-size: 24px;
+    color: #646464
 }
 
 #cooking-image {
     grid-area: cooking-image;
-   height: 75%;
+   height: 440px;
+   width: 600px;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+
+
+.card {
+    width: 350px;
+    height: 324px;
+    border-radius: 40px;
+    background-color: white;
+    position: relative;
     
+    
+}
+
+.class {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    gap: 25px;
+    line-height: 25px;
+    
+}
+
+.summary {
+    font-size: 18px;
+    color: #646464;
+}
+
+
+.yellow {
+    background-color: #FEBD2F;
+    display: flex;
+    text-align: left;
+    padding: 0 0 0 25px;
+    align-items: center;
+    box-sizing: border-box;
+
+ }
+
+ .card-button {
+    border-color: #DCDCDC;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    border-style: solid;
+
+ }
+ 
+
+footer {
+    background-color: #FEBD2F;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-logo {
+    height: 50%;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: -40px;
+    right: 40px;
 }
