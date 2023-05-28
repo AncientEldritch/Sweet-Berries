@@ -1,0 +1,114 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    #top-section {
+        grid-template-areas: "left-box left-box"
+        "cooking-image cooking-image";
+        text-align: center;
+    }
+
+    #cooking-image {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    #cards {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        
+     }
+
+    #left-box {
+        margin-right: auto;
+        font-size: 20px;
+    }
+
+    .summary {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #top-section {
+        grid-template-areas: "left-box left-box"
+        "cooking-image cooking-image";
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #cooking-image {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 32px;
+        margin-top: 50px;
+        margin-left: auto;
+    }
+
+    #left-box {
+        margin-right: auto;
+        font-size: 18px;
+        
+    }
+
+    #cards {
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        justify-content: space-around;
+     }
+    
+    .card {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .yellow {
+        height: 200px;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+    #get-started {
+        visibility: hidden;
+    }
+
+    #mobile-menu {
+        display: inline-block;
+        width: 40px;
+    }
+
+    hr {
+        border-top: 2px solid black;
+    }
+
+    #logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .summary {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+       font-size: 24px; 
+    }
+}
